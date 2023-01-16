@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>ゴットン星人 official</title>
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ゴットン星人公式サイト">
+
+
+    <script>
+        (function (d) {
+            var config = {
+                kitId: "hzz3oti",
+                scriptTimeout: 3000,
+                async: true,
+            },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className =
+                        h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || (a && a != "complete" && a != "loaded")) return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config);
+                } catch (e) { }
+            };
+            s.parentNode.insertBefore(tk, s);
+        })(document);
+    </script>
+
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/news.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.svg">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="nav-header">
+                <a class="button" href="index.html">ゴットン星人 official</a>
+                <nav>
+                    <ul class="nav">
+                        <li><a class="button" href="news.html">News</a></li>
+                        <li><a class="button" href="character.html">Character</a></li>
+                        <li><a class="button" href="goods.html">Goods</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="nav-title">
+                <h2>News</h2>
+            </div>
+        </header>
+        <main>
+            <ol class="news-contents">
+                <li>
+                    <img class="item" src="images/img-coming-soon.jpg" alt="GottonT">
+                    <p class="item">ゴットンTシャツ販売決定!</p>
+                </li>
+                <li>
+                    <img class="item" src="images/img-coming-soon.jpg" alt="GottonT">
+                    <p class="item">コブさんTシャツ販売決定!</p>
+                </li>
+            </ol>
+        </main>
+        <footer class="footer">
+            <p><small>&copy;2023 ゴットン星人公式サイト</small></p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
