@@ -1,0 +1,80 @@
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../images/fairyland-canyon-g167dac2a8_1920.jpg");
+}
+
+.top-header {
+  font-family: source-han-sans-japanese, sans-serif;
+  color: white;
+  padding: 0 4%;
+  font-size: 2rem;
+  height: 42px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.top-header:hover {
+  color: yellow;
+}
+
+main {
+  height: calc(100vh - 42px);
+}
+main .disp-img {
+  background-image: url(../images/gotton.svg);
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70%;
+}
+@media screen and (max-width: 960px) {
+  main .disp-img {
+    height: 60%;
+  }
+}
+main .top-title {
+  background-color: black;
+  text-align: center;
+  font-size: 4rem;
+  margin: auto;
+  padding-top: 2%;
+  height: 30%;
+}
+@media screen and (max-width: 960px) {
+  main .top-title {
+    height: 40%;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+}
+main .top-title .title-text {
+  color: white;
+  font-family: ab-tori-a, sans-serif;
+}
+main .top-title .button-title {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 960px) {
+  main .top-title .button-title {
+    display: block;
+  }
+}
+main .top-title .button {
+  margin: auto 34px;
+  font-family: ab-tori-a, sans-serif;
+  color: white;
+}
+@media screen and (max-width: 960px) {
+  main .top-title .button {
+    font-size: 2.4rem;
+  }
+}
+main .top-title .button:hover {
+  color: yellow;
+}
+/*# sourceMappingURL=style.css.map */

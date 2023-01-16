@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.nav-header {
+  font-family: source-han-sans-japanese, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 4%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.button:hover {
+  color: yellow;
+}
+
+.nav-title {
+  font-size: 4.2rem;
+  text-align: center;
+  padding: 5%;
+  font-family: ab-tori-a, sans-serif;
+}
+
+.nav {
+  display: flex;
+}
+@media screen and (max-width: 960px) {
+  .nav {
+    display: block;
+  }
+}
+
+.nav li {
+  margin-left: 16px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 26px 0;
+  margin-top: auto;
+}
+
+.footer p {
+  font-size: 1.6rem;
+}
+/*# sourceMappingURL=common.css.map */
