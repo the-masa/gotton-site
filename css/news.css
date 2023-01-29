@@ -2,6 +2,23 @@ main {
   padding: 100px;
   background-image: url("../images/fairyland-canyon-g167dac2a8_1920.jpg");
 }
+
+main .omikuji {
+  color: yellow;
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 3.2rem;
+}
+main .omikuji button {
+  background-color: black;
+  border-radius: 8px;
+  padding: 8px 40px;
+}
+main .omikuji .omikuji_result {
+  margin-top: 32px;
+  font-size: 4rem;
+}
+
 @media screen and (max-width: 960px) {
   main {
     padding: 50px;
@@ -17,7 +34,7 @@ main .news-contents li {
   }
 }
 main .news-contents img {
-  width: 300px;
+  width: auto;
   height: 300px;
   margin-right: 24px;
 }
