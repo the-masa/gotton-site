@@ -54,10 +54,15 @@ main .top-title {
 main .top-title .title-text {
   color: white;
   font-family: ab-tori-a, sans-serif;
+  margin-bottom: 32px;
 }
 main .top-title .button-title {
   display: flex;
   justify-content: space-around;
+  font-size: 3.2rem;
+}
+main .top-title .button-title li{
+  line-height: 3.2rem;
 }
 @media screen and (max-width: 960px) {
   main .top-title .button-title {
